@@ -6,9 +6,7 @@
 Contract Invoicing of Pending Sales Orders
 ==========================================
 
-This modules allows to include on the same invoice than the recurring invoice
-contract, all the pending to invoice sales orders that you have with the same
-analytic account.
+This modules is an particular adaptation from the OCA module. It brings OCA module the habiltity to include all pending to invoice sale orders without need of set the analytic account in each sale order. This way expands the OCA module to work with a large number of sale orders.
 
 Usage
 =====
@@ -18,9 +16,8 @@ To use this module, you need to:
 #. Go to Invoicing > Sales > Contracts and select or create a new contract.
 #. Check *Generate recurring invoices automatically*.
 #. Mark the check "Invoice Pending Sales Orders".
-#. On each invoicing, system will check if there's any pending sales orders
-   with same analyitic account and will append the lines to the invoice being
-   generated.
+#. Check *Factura por dirección de entrega" if you wish invoice only sale orders by delivery address.
+#. On each invoicing, system will check the propper parent id and make the right invoices.
 
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -44,8 +41,8 @@ Images
 
 * Odoo Community Association: `Icon <https://odoo-community.org/logo.png>`_.
 
-Contributors
-------------
+Contributors from OCA module
+----------------------------
 
 * `Tecnativa <https://www.tecnativa.com>`_:
 
