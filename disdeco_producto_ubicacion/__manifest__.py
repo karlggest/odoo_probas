@@ -42,7 +42,7 @@
     #         'reports/service_ticket_template.xml',
     #         'data/mobile_service_data.xml',
     #         'data/mobile_service_email_template.xml'],
-    'images': ['static/description/imaxe.png'],
+    'images': ['static/description/imaxe.jpg'],
     'installable': True,
     'application': False,
     'auto_install': False,
