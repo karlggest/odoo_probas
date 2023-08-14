@@ -1,4 +1,4 @@
 # odoo_probas
 Carpeta para as miñas probas con Odoo
 
-* lista
+Neste repositorio haberá módulos propios ou modificados
