@@ -20,12 +20,12 @@
 #############################################################################
 {
     'name': 'Etiqueta de Ubicación para Productos',
-    'version': '13.0.1.0.0',
+    'version': '15.0.1.0.0',
     'summary': 'Engade unha etiqueta para ordear a localización dos productos dentro do almacén',
     'category': 'stock',
     'author': 'karlggest',
     'company': 'atendapc',
-    'website': 'https://atendapc.net',
+    'website': 'https://github.com/karlggest/odoo_probas',
     'depends': ['stock',],
     'data': ['views/producto.xml',],
     #'data': ['security/security.xml',
